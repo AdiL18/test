@@ -8,12 +8,10 @@ namespace git_test
         {
             Console.WriteLine("Hello World! this is test");
 
-            var projectName = "x-project";
-            Console.WriteLine("start project:" + projectName);
-            for (int i = 0; i < 200; i++)
-            {
-                Console.WriteLine(i);
-            }
+           for (int i = 0; i < 1000; i++)
+			{
+                Console.WriteLine(i);  
+			}
         }
     }
 }
